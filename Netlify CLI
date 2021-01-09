@@ -1,0 +1,23 @@
+***********React************
+
+first make build wiht npm run build
+[build]
+    command="yarn build"
+    publish="build/"
+
+
+***********gatsby************
+
+first make build wiht gatsby build
+
+[build]
+    command="yarn build"
+    publish="public"
+
+
+netlify dev // run locally
+netlify deploy --prod
+
+***********function************
+
+netlify functions:create hello // create netlify function
